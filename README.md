@@ -184,23 +184,38 @@ docker login
 ```
 
 ```bash
-./docker_push.sh v1.0.0
+./docker_push.sh v2.1.0
 ```
 
+---
+# Push Images
+
+```bash
+docker push mithunvm92/employee-app-frontend:v2.1.0
+```
+
+```bash
+docker push mithunvm92/employee-app-backend:v2.1.0
+```
+
+```bash
+docker push mithunvm92/employee-app-db:v2.1.0
+```
+<img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/e377d325-2edc-4bf1-8636-178b6ce82bf2" />
 ---
 
 # Pull Images
 
 ```bash
-docker pull mithunvm92/employee-app-frontend:v1.0.0
+docker pull mithunvm92/employee-app-frontend:v2.1.0
 ```
 
 ```bash
-docker pull mithunvm92/employee-app-backend:v1.0.0
+docker pull mithunvm92/employee-app-backend:v2.1.0
 ```
 
 ```bash
-docker pull mithunvm92/employee-app-db:v1.0.0
+docker pull mithunvm92/employee-app-db:v2.1.0
 ```
 
 ---
@@ -241,7 +256,8 @@ Grafana Dashboard
 
 ### Dashboard
 
-<img width="100%" alt="Dashboard Screenshot" src="docs/dashboard.png">
+<img width="1919" height="981" alt="image" src="https://github.com/user-attachments/assets/5f5e00ba-07bf-4d5c-b155-c3fb0abd4f6f" />
+
 
 ---
 
