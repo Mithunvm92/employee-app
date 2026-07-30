@@ -22,11 +22,11 @@ A full-stack **Employee Management System** built with **React, Flask, PostgreSQ
 
 <img width="500" height="527" alt="image" src="https://github.com/user-attachments/assets/e03e1f40-5d88-4834-94d1-9f41d05cb7f7" />
 
-```
+
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 employee-app/
