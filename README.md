@@ -303,4 +303,3 @@ This project is licensed under the MIT License.
 
 ---
 
-## ⭐ If you found this project useful, please consider giving it a Star.Employee-app
