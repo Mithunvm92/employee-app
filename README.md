@@ -101,7 +101,7 @@ cd employee-app
 ```bash
 docker compose build
 ```
-
+<img width="1919" height="79" alt="image" src="https://github.com/user-attachments/assets/622f34d1-d453-4ec4-8066-117839250e5d" />
 ---
 
 # Start Application
@@ -109,6 +109,14 @@ docker compose build
 ```bash
 docker compose up -d
 ```
+
+<img width="1911" height="106" alt="image" src="https://github.com/user-attachments/assets/97ab9c0c-3687-4b30-bc4c-633bf4f02723" />
+
+```bash
+docker ps
+```
+<img width="1919" height="86" alt="image" src="https://github.com/user-attachments/assets/647117cf-a2cd-4276-8262-115b98d960ef" />
+
 
 ---
 
@@ -206,6 +214,7 @@ docker push mithunvm92/employee-app-db:v2.1.0
 
 # Pull Images
 
+
 ```bash
 docker pull mithunvm92/employee-app-frontend:v2.1.0
 ```
@@ -217,6 +226,7 @@ docker pull mithunvm92/employee-app-backend:v2.1.0
 ```bash
 docker pull mithunvm92/employee-app-db:v2.1.0
 ```
+<img width="1878" height="297" alt="image" src="https://github.com/user-attachments/assets/9f74ccbf-51f1-4418-91be-f3b8d41ca0a8" />
 
 ---
 
@@ -257,7 +267,6 @@ Grafana Dashboard
 ### Dashboard
 
 <img width="1919" height="981" alt="image" src="https://github.com/user-attachments/assets/5f5e00ba-07bf-4d5c-b155-c3fb0abd4f6f" />
-
 
 ---
 
