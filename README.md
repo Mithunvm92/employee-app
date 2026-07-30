@@ -1,1 +1,281 @@
-Employee-app
+# 🚀 Employee Management System
+
+A full-stack **Employee Management System** built with **React, Flask, PostgreSQL, and Docker**. This project demonstrates containerized application development and serves as a target application for vulnerability scanning using **Trivy**, AI-powered security analysis, Prometheus, Grafana, and Slack integrations.
+
+---
+
+## 📌 Features
+
+- Add Employees
+- View Employees
+- Delete Employees
+- RESTful Flask API
+- PostgreSQL Database
+- Dockerized Frontend, Backend & Database
+- Responsive UI
+- Ready for DevSecOps Security Scanning
+
+---
+
+# 🏗️ Architecture
+
+```
+                    +------------------+
+                    |      Browser     |
+                    +---------+--------+
+                              |
+                              |
+                    React Frontend
+                              |
+                         REST API
+                              |
+                    Flask Backend API
+                              |
+                       SQLAlchemy ORM
+                              |
+                    PostgreSQL Database
+```
+
+---
+
+# 📂 Project Structure
+
+```
+employee-app/
+│
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .dockerignore
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── App.css
+│   ├── Dockerfile
+│   ├── nginx.conf
+│   └── package.json
+│
+├── database/
+│   ├── Dockerfile
+│   └── init.sql
+│
+├── docker-compose.yml
+├── docker_push.sh
+└── README.md
+```
+
+---
+
+# ⚙️ Technology Stack
+
+| Component | Technology |
+|------------|------------|
+| Frontend | React + Vite |
+| Backend | Flask |
+| Database | PostgreSQL |
+| API | REST |
+| ORM | SQLAlchemy |
+| Web Server | Nginx |
+| Containerization | Docker |
+| Orchestration | Docker Compose |
+| Version Control | Git & GitHub |
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Mithunvm92/employee-app.git
+
+cd employee-app
+```
+
+---
+
+# Build Containers
+
+```bash
+docker compose build
+```
+
+---
+
+# Start Application
+
+```bash
+docker compose up -d
+```
+
+---
+
+# Stop Application
+
+```bash
+docker compose down
+```
+
+---
+
+# 🌐 Application URLs
+
+| Service | URL |
+|----------|-----|
+| Frontend | http://localhost:8080 |
+| Backend API | http://localhost:5000 |
+| PostgreSQL | localhost:5432 |
+
+---
+
+# 📡 API Endpoints
+
+## Get Employees
+
+```
+GET /employees
+```
+
+---
+
+## Add Employee
+
+```
+POST /employees
+```
+
+Example
+
+```json
+{
+    "name":"Mithun",
+    "department":"DevOps",
+    "email":"mithun@test.com",
+    "salary":"100000"
+}
+```
+
+---
+
+## Delete Employee
+
+```
+DELETE /employees/{id}
+```
+
+---
+
+# 🐳 Docker Images
+
+| Image |
+|--------|
+| employee-app-frontend |
+| employee-app-backend |
+| employee-app-db |
+
+---
+
+# Push Docker Images
+
+```bash
+docker login
+```
+
+```bash
+./docker_push.sh v1.0.0
+```
+
+---
+
+# Pull Images
+
+```bash
+docker pull mithunvm92/employee-app-frontend:v1.0.0
+```
+
+```bash
+docker pull mithunvm92/employee-app-backend:v1.0.0
+```
+
+```bash
+docker pull mithunvm92/employee-app-db:v1.0.0
+```
+
+---
+
+# 📊 Future DevSecOps Integration
+
+This application is designed to integrate with a complete DevSecOps pipeline.
+
+```
+Docker Image
+      │
+      ▼
+Trivy Vulnerability Scanner
+      │
+      ▼
+JSON Vulnerability Report
+      │
+      ▼
+AI Security Analysis
+      │
+      ▼
+OWASP Top 10 Mapping
+      │
+      ▼
+Enhanced Security Report
+      │
+      ├────────► Slack Notifications
+      │
+      ├────────► Prometheus Metrics
+      │
+      ▼
+Grafana Dashboard
+```
+
+---
+
+# Screenshots
+
+### Dashboard
+
+<img width="100%" alt="Dashboard Screenshot" src="docs/dashboard.png">
+
+---
+
+# Future Enhancements
+
+- Update Employee
+- Employee Search
+- Employee Pagination
+- Authentication & Authorization
+- JWT Security
+- Role Based Access Control
+- Audit Logs
+- CI/CD using GitHub Actions
+- Kubernetes Deployment
+- Helm Charts
+- Container Vulnerability Monitoring
+- Prometheus & Grafana Monitoring
+- AI Security Reporting
+
+---
+
+# Author
+
+**Mithun Valappil Mani**
+
+- GitHub: https://github.com/Mithunvm92
+- LinkedIn: https://www.linkedin.com/in/mithunvm92/
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ If you found this project useful, please consider giving it a Star.Employee-app
