@@ -1,10 +1,10 @@
-# 🚀 Employee Management System
+# Employee Management System
 
 A full-stack **Employee Management System** built with **React, Flask, PostgreSQL, and Docker**. This project demonstrates containerized application development and serves as a target application for vulnerability scanning using **Trivy**, AI-powered security analysis, Prometheus, Grafana, and Slack integrations.
 
 ---
 
-## 📌 Features
+## Features
 
 - Add Employees
 - View Employees
@@ -17,7 +17,7 @@ A full-stack **Employee Management System** built with **React, Flask, PostgreSQ
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 ```
                     +------------------+
@@ -68,7 +68,7 @@ employee-app/
 
 ---
 
-# ⚙️ Technology Stack
+# Technology Stack
 
 | Component | Technology |
 |------------|------------|
@@ -84,7 +84,7 @@ employee-app/
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Clone Repository
 
@@ -120,7 +120,7 @@ docker compose down
 
 ---
 
-# 🌐 Application URLs
+# Application URLs
 
 | Service | URL |
 |----------|-----|
@@ -167,7 +167,7 @@ DELETE /employees/{id}
 
 ---
 
-# 🐳 Docker Images
+# Docker Images
 
 | Image |
 |--------|
@@ -205,7 +205,7 @@ docker pull mithunvm92/employee-app-db:v1.0.0
 
 ---
 
-# 📊 Future DevSecOps Integration
+# Future DevSecOps Integration
 
 This application is designed to integrate with a complete DevSecOps pipeline.
 
