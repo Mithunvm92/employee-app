@@ -1,0 +1,44 @@
+body{
+  font-family:Arial;
+  background:#f4f4f4;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+}
+
+h1{
+  text-align:center;
+}
+
+.form{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:10px;
+  margin-bottom:20px;
+}
+
+input{
+  padding:10px;
+}
+
+button{
+  padding:10px;
+  cursor:pointer;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,td{
+  border:1px solid #ddd;
+  padding:10px;
+}
+
+th{
+  background:#333;
+  color:white;
+}
