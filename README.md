@@ -180,22 +180,22 @@ docker login
 ```
 
 ```bash
-./docker_push.sh v2.1.0
+./docker_push.sh latest
 ```
 
 ---
 # Push Images
 
 ```bash
-docker push mithunvm92/employee-app-frontend:v2.1.0
+docker push mithunvm92/employee-app-frontend:latest
 ```
 
 ```bash
-docker push mithunvm92/employee-app-backend:v2.1.0
+docker push mithunvm92/employee-app-backend:latest
 ```
 
 ```bash
-docker push mithunvm92/employee-app-db:v2.1.0
+docker push mithunvm92/employee-app-db:latest
 ```
 <img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/e377d325-2edc-4bf1-8636-178b6ce82bf2" />
 ---
@@ -204,15 +204,15 @@ docker push mithunvm92/employee-app-db:v2.1.0
 
 
 ```bash
-docker pull mithunvm92/employee-app-frontend:v2.1.0
+docker pull mithunvm92/employee-app-frontend:latest
 ```
 
 ```bash
-docker pull mithunvm92/employee-app-backend:v2.1.0
+docker pull mithunvm92/employee-app-backend:latest
 ```
 
 ```bash
-docker pull mithunvm92/employee-app-db:v2.1.0
+docker pull mithunvm92/employee-app-db:latest
 ```
 <img width="1878" height="297" alt="image" src="https://github.com/user-attachments/assets/9f74ccbf-51f1-4418-91be-f3b8d41ca0a8" />
 
