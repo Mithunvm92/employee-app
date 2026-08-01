@@ -20,7 +20,7 @@ A full-stack **Employee Management System** built with **React, Flask, PostgreSQ
 #  Architecture
 
 
-<img width="500" height="527" alt="image" src="https://github.com/user-attachments/assets/e03e1f40-5d88-4834-94d1-9f41d05cb7f7" />
+<img width="580" height="688" alt="image" src="https://github.com/user-attachments/assets/29cb0dc8-50ba-4f85-b134-b54bd35711ff" />
 
 
 
