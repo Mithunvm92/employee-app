@@ -25,6 +25,11 @@ A full-stack **Employee Management System** built with **React, Flask, PostgreSQ
 
 
 ---
+#  Docker Architecture
+
+<img width="489" height="497" alt="image" src="https://github.com/user-attachments/assets/3ce11092-0fe6-4e84-9732-1bca86c81ed0" />
+
+---
 
 # Project Structure
 
